@@ -19,8 +19,10 @@ class Solution{
 	        arr[i-k]=arr[i];
 	    }
 	    
+	    int j=0;
 	    for(int i=n-k;i<n;i++){
-	        arr[i]=a[i-(n-k)];
+	        arr[i]=a[j];
+	        j++;
 	    }
 	} 
 		 
